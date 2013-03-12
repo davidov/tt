@@ -1,0 +1,35 @@
+
+.jstwitter {
+    width: 80%;
+    font-family: arial;
+    font-size: 15px;
+    color: #333333;
+    padding: 10px;
+    margin:0 auto;
+}
+
+.jstwitter .tweet {
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    width: 150px;
+    margin:5px;
+    padding: 5px;
+    float:left;
+    background:#f1f1f1;
+    border:3px solid #ddd;
+}
+
+.jstwitter .tweet a {
+    text-decoration: none;
+    color: #13c9d0;
+}
+
+.jstwitter .tweet a:hover {
+    text-decoration: underline;
+}
+
+.jstwitter .tweet .time {
+    font-size: 10px;
+    font-style: italic;
+    color: #666666;
+}

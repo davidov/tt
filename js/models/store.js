@@ -1,11 +1,11 @@
-/*global Todos DS */
+/*global ToTwitter DS */
 'use strict';
 
-Todos.Store = DS.Store.extend({
+ToTwitter.Store = DS.Store.extend({
 	revision: 11,
 	adapter: 'Todos.LSAdapter'
 });
 
-Todos.LSAdapter = DS.LSAdapter.extend({
+ToTwitter.LSAdapter = DS.LSAdapter.extend({
 	namespace: 'todos-emberjs'
 });
